@@ -1,0 +1,23 @@
+Create a class named Book.
+Add attributes: title and author.
+Create a method display_info() to display book details.
+Create three book objects.
+
+
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def display_info(self):
+        print(f"Title: {self.title}, Author: {self.author}")
+
+
+book1 = Book("Python Basics", "John Smith")
+book2 = Book("Learning IoT", "Sara Khan")
+book3 = Book("Data Structures", "Ali Raza")
+
+book1.display_info()
+book2.display_info()
+book3.display_info()
