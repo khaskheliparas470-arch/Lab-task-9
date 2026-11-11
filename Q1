@@ -1,0 +1,18 @@
+Create a class named Car.
+Add attributes: brand and color.
+Create a method start() that prints “The car is starting.”
+Create an object and call the method.
+
+class Car:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+    def start(self):
+        print("The car is starting.")
+
+
+car1 = Car("Toyota", "Red")
+print("Brand:", car1.brand)
+print("Color:", car1.color)
+car1.start()
